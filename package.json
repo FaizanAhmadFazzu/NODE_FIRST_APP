@@ -1,0 +1,22 @@
+{
+  "name": "node_first_app",
+  "version": "1.0.0",
+  "description": "Complete Node.js Guide",
+  "homepage": "https://github.com/FaizanAhmadFazzu/NODE_FIRST_APP#readme",
+  "bugs": {
+    "url": "https://github.com/FaizanAhmadFazzu/NODE_FIRST_APP/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FaizanAhmadFazzu/NODE_FIRST_APP.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start-server": "node app.js"
+  }
+}
