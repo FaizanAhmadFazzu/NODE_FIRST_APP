@@ -8,15 +8,17 @@ const app = express();
 
 // app.set('view engine', 'pug');
 // app.set('views', 'views');
-app.engine(
-  'hbs',
-  engine({
-    layoutsDir: 'views/layouts/',
-    defaultLayout: 'main-layout',
-    extname: 'hbs'
-  })
-);
-app.set('view engine', 'hbs');
+// app.engine(
+//   'hbs',
+//   engine({
+//     layoutsDir: 'views/layouts/',
+//     defaultLayout: 'main-layout',
+//     extname: 'hbs'
+//   })
+// );
+// app.set('view engine', 'hbs');
+// app.set('views', 'views');
+app.set('view engine', 'ejs');
 app.set('views', 'views');
 
 const adminData = require('./routes/admin');
